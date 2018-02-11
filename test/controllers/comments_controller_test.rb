@@ -1,18 +1,18 @@
 require 'test_helper'
 
-class CommentControllerTest < ActionDispatch::IntegrationTest
+class CommentsControllerTest < ActionDispatch::IntegrationTest
   test "should get new" do
-    get comment_new_url
+    get comments_new_url
     assert_response :success
   end
 
   test "should get show" do
-    get comment_show_url
+    get comments_show_url
     assert_response :success
   end
 
   test "should get edit" do
-    get comment_edit_url
+    get comments_edit_url
     assert_response :success
   end
 
